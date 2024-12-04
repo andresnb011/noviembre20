@@ -1,0 +1,67 @@
+*{
+    font-family: "Cinzel", serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Estilo del encabezado y el menú de navegación */
+header {
+    background-color: #333;
+    color: #fff;
+    
+    
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+
+
+/* Estilos para el héroe */
+#hero {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+    color: #000;
+}
+
+#hero h2 {
+    font-size: 2em;
+}
+
+/* Estilos para el main y la tabla */
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+table {
+        margin: auto;
+        border: 1px solid black;
+        width: 50%;
+}
